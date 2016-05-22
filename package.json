@@ -1,0 +1,20 @@
+{
+  "name": "ridestats.me",
+  "version": "1.0.0",
+  "description": "an application to see your uber totals",
+  "main": "app.js",
+  "scripts": {
+     "start": "node app.js"
+  },
+  "author": "tesa serdar",
+  "license": "ISC",
+  "dependencies": {
+    "node-uber": "^0.9.4",
+    "express": "^4.13.1"
+  },
+  "engines": {
+    "node": "5.0.0"
+  }
+}
+
+
