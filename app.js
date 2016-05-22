@@ -6,9 +6,8 @@ var request = require('request');
 var app = express();
 app.use(express.static('public'));
 
-app.listen(3000, function () {
-  console.log('Listening on port 3000!');
-});
+app.listen(process.env.PORT || 3000)
+
 
 var uber = new Uber({
   client_id: 'qfa9685JhoyhkXKToPtOo5ViSHufieac',
